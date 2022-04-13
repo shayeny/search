@@ -51,7 +51,7 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-.search_icons {
+.search_bar_icons {
     display: flex;
     width: 5%;
     margin: 2%;
@@ -78,4 +78,43 @@
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
+}
+
+.appbar {
+    display: flex;
+    margin: 25px 35px;
+    padding: 0;
+    border: 0;
+    font-family: arial,sans-serif;
+    font-size: 24px;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: #d93025;
+}
+
+.adv_btn {
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 1px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.adv_input {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 12px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 95%;
+}
+
+.adv_tooltip {
+    font-size: 11px;
+    color: #777;
 }
